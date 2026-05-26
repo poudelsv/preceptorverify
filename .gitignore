@@ -1,0 +1,32 @@
+# Python Virtual Environment
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Python cache files
+_pycache_/
+a.py[cod]
+a.pyo
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Logs
+*.log
+
+# Database files
+*.sqlite
+*.db
+
+# Build outputs
+dist/
+build/
