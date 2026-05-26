@@ -12,3 +12,10 @@ async def root():
         "message": "Welcome to PreceptorVerify API",
         "status": "running"
     }
+
+@app.get("/health")
+async def health_check():
+    return {
+        "status": "healthy",
+        "service": "PreceptorVerify API"
+    }
